@@ -15,7 +15,7 @@ while True:
      computer_suit = random.choice(suits)
      print("----- round " , round,"------")
 
-     print(f"player_card: {player_card} {player_suit}")
+     print(f"player_card:{player_card} {player_suit}")
      print(f"computer_card: {computer_card} {computer_suit}")
 
      if cards.index(player_card) > cards.index(computer_card):

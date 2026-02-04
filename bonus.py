@@ -28,7 +28,7 @@ def calculate_total(hand):
             total += 1
     return total
 
-#טוב
+
 STOP = 0
 CONTINUE = 1
 
@@ -93,7 +93,7 @@ elif total_player_two>21:
 else:
     if total_player_one > total_player_two:
         print("plyer one you are the winner")
-    if total_player_two > total_player_one:
+    elif total_player_two > total_player_one:
         print("plyer two you are the winner")
     else:
         print("it's a draw")
